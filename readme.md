@@ -9,6 +9,11 @@ All new features/options must integrate with original Core Options UI look/feel/
 Code kept clean and to format/style of existing project, making merging to original master branch as straight-forward as possible.
 
 ## Features ##
+* Quick Zoom/Border Cropping presets
+  * Small, Medium and Full border cropping - both width & height
+  * Fit to narrow & fit to wide screens - width or hight
+  * Custom cropping - displays additional options below
+  
 * Separate Horizontal & Vertical cropping options for C64, C128, Vic-20 and Plus4 cores
   * Preset-based with 3 crop settings for Horizontal & 4 for Vertical, including complete border removal
   * Supports PAL & NTSC for every platform with appropriately-selected cropping presets for both Horizontal and Vertical
@@ -18,11 +23,13 @@ Code kept clean and to format/style of existing project, making merging to origi
   * Independent Top and Vertical Cropping settings from 0 to 60 pixels (NTSC cropping restricted to match PAL range)
   * With support for over-cropping beyond the border to work with widest-possible range of games/titles
 
-* Hot Key to toggle (ON/OFF) the currently set cropping for both Horizontal and Vertical at the same time (all above cores)
+* Hot Key to toggle (ON/OFF) the currently set cropping for both Horizontal and Vertical at the same time
 
-* Hot Key to cycle through all the presets for Horizontal Cropping (all above cores)
+* Hot Key to cycle through the Quick Zoom / Border Cropping presets
 
-* Hot Key to cycle through all the presets for Vertical Cropping (all above cores) - includes Manual Crop setting
+* Hot Key to cycle through the presets for Horizontal Cropping
+
+* Hot Key to cycle through the presets for Vertical Cropping - includes Manual Crop setting
 
 
 ## Screenshot of Core Options ##
