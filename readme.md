@@ -1,3 +1,5 @@
+# VICE Libretro - Border Cropping (BC) Edition - Pixelpiper 2020
+
 ## The goal of this vice-libretro fork:
 
 To provide options to fit/fill any monitor of any aspect ratio, size or resolution, with perfectly scaled, non-distorted emulator screens at each platform’s correct aspect ratio - the resulting output should closely match the proportions/dimensions originally seen on a CRT/TV.
@@ -11,7 +13,7 @@ Code kept clean and to format/style of existing project, making merging to origi
 ## Features ##
 * Quick Zoom/Border Cropping presets
   * Small, Medium and Full border cropping - both width & height
-  * Fit to narrow & fit to wide screens - width or hight
+  * Fit to Narrow & Fit to Wide (screens) - width or height
   * Custom cropping - displays additional options below
   
 * Separate Horizontal & Vertical cropping options for C64, C128, Vic-20 and Plus4 cores
