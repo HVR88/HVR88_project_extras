@@ -40,7 +40,7 @@ Output and features must work with all displays/monitors: 16:9, 16:10, 5:4, 4:3,
 
 ## Screenshot of Core Options ##
 
-![Screenshot](https://github.com/HVR88/Project_Screenshots/blob/master/vice-libretro-cropping_small.png?raw=true)
+![Screenshot](https://github.com/HVR88/HVR88_project_extras/blob/master/VICE%20Libretro%20BC%20Edition-small.png)
 
 
 Requirements: **Retroarch settings: Video settings -> Scaling -> Aspect Ratio: Core Provided + Integer Scaling: OFF**
