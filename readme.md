@@ -12,13 +12,13 @@ Output and features must work with all displays/monitors: 16:9, 16:10, 5:4, 4:3,
   * Fit to Narrow & Fit to Wide (screens) - width or height
   * Custom cropping - displays additional options below
   
-* Separate Horizontal & Vertical cropping options for C64, C128, Vic-20 and Plus4 cores
-  * Preset-based with 3 crop settings for Horizontal & 4 for Vertical, including complete border removal
-  * Supports PAL & NTSC for every platform with appropriately-selected cropping presets for both Horizontal and Vertical
+* Separate Width & Height cropping options for C64, C128, Vic-20 and Plus4 cores
+  * Preset-based with 3 crop settings for Width & 4 for Height, including complete border removal
+  * Supports PAL & NTSC for every platform with appropriately-selected cropping presets for both Width and Height
   * No buggy side-effects of the Display Border Off option
 
-* Manual Vertical Cropping Option for C64 and C128 cores - make the output perfectly fit any game
-  * Independent Top and Vertical Cropping settings from 0 to 60 pixels (NTSC cropping restricted to match PAL range)
+* Manual Height Cropping Option for C64 and C128 cores - make the output perfectly fit any game
+  * Independent Top and Bottom Cropping settings from 0 to 60 pixels (NTSC cropping restricted to match PAL range)
   * With support for over-cropping beyond the border to work with widest-possible range of games/titles
 
 * Three new 4:3 normalized Pixel Aspect Correction options
@@ -28,13 +28,13 @@ Output and features must work with all displays/monitors: 16:9, 16:10, 5:4, 4:3,
 * Virtual Keyboard scaling
   * Adapts to cropped height as necessary
   
-* Hot Key to toggle (ON/OFF) the currently set cropping for both Horizontal and Vertical at the same time
+* Hot Key to toggle (ON/OFF) the currently set Quick Zoom / Cropping preset
 
 * Hot Key to cycle through the Quick Zoom / Border Cropping presets
 
-* Hot Key to cycle through the presets for Horizontal Cropping
+* Hot Key to cycle through the presets for Width Cropping
 
-* Hot Key to cycle through the presets for Vertical Cropping - includes Manual Crop setting
+* Hot Key to cycle through the presets for Height Cropping - includes Manual Crop setting
 
 * Reorganized & relabled Core Options for quicker access and ease of use
 
