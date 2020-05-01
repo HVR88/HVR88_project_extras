@@ -38,35 +38,6 @@ Code kept clean and to format/style of existing project, making merging to origi
 
 ![Screenshot](https://github.com/HVR88/Project_Screenshots/blob/master/vice-libretro-cropping_small.png?raw=true)
 
-## Additions & Changes to Codebase ##
-
-* UI & Cropping code added in **libretro-core.c**
-* Hot Key toggle & cycling code in **/vice/src/arch/libretro/retrostubs.c**
-* UI: Moved Aspect Ratio setting above “Display Border” for a more hierarchical order for the Video Options
-* UI: add description to Aspect Ratio
-* UI: changed description for Display Borders to warn of performance issues with this feature & recommend Border crop features instead
-* UI: Renamed Zoom Mode to “Crop Vertical Borders” for accuracy and to fit with the new border cropping features (internal variable/option names unchanged for compatibility with existing opt files)
-* UI: added “Crop Horizontal Borders” above the vertical setting
-* UI: The option labels have been renamed to make them clearer: OFF, Small Crop, Medium Crop, Full Crop
-* UI: Added “Manual Crop” option value (# 4) to “Crop Vertical Borders” which will take values from two following core options
-* UI: added “Manual Top Cropping” option - values in pixels 0-60 - NTSC and PAL “Full” border sizes specially marked
-* UI: added “Manual Bottom Cropping”  option - values in pixels 0-60 - NTSC and PAL “Full” border sizes specially marked
-* UI: added 2 new hot keys, one for Horizontal crop mode Cycling and one for Vertical crop mode (zoom mode) cycling
-* UI: Relabeled Zoom Mode toggle hot key to include “(Horizontal + Vertical)” note
-* Old “Zoom Mode” code converted to Vertical Cropping option
-* Added new Horizontal conditional options
-* Vertical cropping conditions affect only vertical dimensions & offsets - tailored/tested presets for each platform
-* Horizontal cropping conditions affect only horizontal dimensions & offsets - tailored/tested presets for each platform
-* Manual Top and Bottom Cropping calculated & available for C64/128 platforms only (can easily be extended to other platforms if needed)
-* Shifted the mapper numerical array indexes for the datasette hot keys and increase the mapper array size by 2
-* Changed Zoom Mode toggle in retrostubs to remove redundant conditions & include horizontal mode so it toggles H+V at the same time - now it’s possible to do a 2-dimensional zoom on any display
-* Retrostubs includes the new cycling code and additions for the cycle hot keys as necessary
-* Fixed existing crop dimensions & offsets - borders pixel-exact now when cropped for all platforms
-  * Pre-set crop dimensions for c64/128 selected & tested against large library of game content & for acceptable fit into standard monitor dimensions/orientations
-  * Pre-set crop dimensions for xplus4 selected to match results of c64
-  * Pre-set crop dimensions for Vic-20 selected based on previous values from Zoom Mode
-* Fixed: C64MODEL_C64_JAP not marked as RETRO_REGION_NTSC - missing from retro_get_region():
-
 
 Requirements: **Retroarch settings: Video settings -> Scaling -> Aspect Ratio: Core Provided + Integer Scaling: OFF**
 
