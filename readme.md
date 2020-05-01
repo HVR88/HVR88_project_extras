@@ -1,3 +1,5 @@
+The fork is private at the moment. Request access or wait until it's made public again.
+
 # VICE Libretro - Border Cropping (BC) Edition - Pixelpiper 2020
 
 This project fork adds options to fit/fill any monitor of any aspect ratio, size or resolution, with perfectly scaled, non-distorted emulator screens at each platform’s correct aspect ratio - the resulting output should closely match the proportions/dimensions originally seen on a CRT/TV.
