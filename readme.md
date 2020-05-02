@@ -1,4 +1,4 @@
-The fork is private at the moment. Request access or wait until it's made public again.
+The fork's repo is private at the moment. Request access or wait until it's made public again. Windows binaries of the cores are available as Release 1.0 in the base HVR88/vice-libretro repo for now.
 
 # VICE Libretro - Border Cropping (BC) Edition - Pixelpiper 2020
 
